@@ -5,6 +5,8 @@
 
 [![Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Xbox-One-Console-wController-FL.jpg/2560px-Xbox-One-Console-wController-FL.jpg)](https://ja.wikipedia.org/wiki/Xbox_One#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Xbox-One-Console-wController-FL.jpg)
 
+[日本語版はこちら。Click here for a description of the Japanese version.](README_JP.md)
+
 ## Assetto Corsa finally met the "Impulse Trigger"
 
 The Xbox One controller, released on 22 November 2013,[^1] features a new "Impulse Trigger" with a rumble motor on each of the left and right triggers.
@@ -28,8 +30,8 @@ This application vibrates the trigger based on tire slip conditions.
 It works in gamepad mode only if the controller has an impulse trigger and Steam Input is disabled.
 
 There is no GUI as this is an experimental app in the process of production.
-Just install it in the "apps\lua" folder and it will be activated by itself.
-If you want to disable it, please click "Disable" in the "CONTENTS" section of CM, or move it to the "apps\lua-off" folder.
+Just install it in the `apps\lua` folder and it will be activated by itself.
+If you want to disable it, please click "Disable" in the "CONTENTS" section of CM, or move it to the `apps\lua-off` folder.
 
 Depending on the response, I plan to add the ability to make adjustments via INI file or GUI.
 
@@ -38,8 +40,8 @@ Depending on the response, I plan to add the ability to make adjustments via INI
 This mod requires [**Content Manager**](https://assettocorsa.club/content-manager.html) and [**Custom Shaders Patch**](https://acstuff.ru/patch/) to be installed!
 
 + Download the latest version from [Releases](https://github.com/Akeyroid7/a7-impulse/releases).
-+ Open the "assettocorsa" folder in the downloaded ZIP, and copy the "apps" folder.
-+ Paste the folder into your main "assettocorsa" folder.
++ Open the `assettocorsa` folder in the downloaded ZIP, and copy the `apps` folder.
++ Paste the folder into your main `assettocorsa` folder.
 
 ## Supporting
 
