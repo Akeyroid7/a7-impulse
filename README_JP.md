@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/badge/Version-0.0_(Experimental)-blue.svg)](https://github.com/Akeyroid7/a7-impulse/releases)
 [![Compatibility](https://img.shields.io/badge/CSP-0.2.0-green.svg)](https://acstuff.ru/patch/#0.2.0)
 
-[![Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Xbox-One-Console-wController-FL.jpg/2560px-Xbox-One-Console-wController-FL.jpg)](https://ja.wikipedia.org/wiki/Xbox_One#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Xbox-One-Console-wController-FL.jpg)
+[![Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Xbox-One-Console-wController-FL.jpg/1280px-Xbox-One-Console-wController-FL.jpg)](https://ja.wikipedia.org/wiki/Xbox_One#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Xbox-One-Console-wController-FL.jpg)
 
 ## これは何ですか？
 
@@ -33,9 +33,11 @@ CSP v0.2.0の新機能を利用しているため、v0.1.79以前のCSPでは動
 スクリプトが機能するためには、
 
 - Assetto CorsaにCSP v0.2.0以降を導入済みである
+- Assetto Corsaのコントロール設定が「Xbox 360ゲームパッド」に設定されている
 - インパルストリガー搭載XboxコントローラーをUSB接続で利用している（Bluetooth接続ではトリガー振動が利用できません）
 - Steam側でAssetto Corsaの「Steam入力」が無効になっている
-- Assetto Corsaのコントロール設定が「Xbox 360ゲームパッド」に設定されている
+
+  [<img src="https://pbs.twimg.com/media/F-4nQj1aEAA6p-S?format=png&name=900x900" width="50%">](https://twitter.com/Akeyroid7/status/1724359384262939003)
 
 という条件を全て満たす必要があります。
 
@@ -62,6 +64,8 @@ CSP v0.2.0の新機能を利用しているため、v0.1.79以前のCSPでは動
 
 通称「箱コン」と呼ばれるXboxのコントローラーですが、2013年11月22日に発売されたXbox One[^1]の時代から、左右のトリガーに振動モーターが内蔵されているのをご存知でしたか？
 
+[![Reddit](https://preview.redd.it/vt0oew04zuq71.gif?width=557&auto=webp&s=4d09fa7a80b49ab6012e458d494af84c94166725)](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fvt0oew04zuq71.gif%3Fwidth%3D557%26auto%3Dwebp%26s%3D4d09fa7a80b49ab6012e458d494af84c94166725)
+
 この「インパルストリガー」と名付けられた振動トリガーは、現行のXboxシリーズにも引き継がれていて、実はWindowsのAPIからも利用できるようになっています（ただしUSB接続に限る。Bluetooth接続では利用できません。 [Windows 用 Xbox ワイヤレス アダプター](https://www.xbox.com/ja-JP/accessories/adapters/wireless-adapter-windows) なるものを用意すれば無線でも利用できるようですが、恐らく現在は入手困難だと思います）
 
 しかし、この機能に対応したPCソフトは極端に少なく、コンシューマーのXbox版ではトリガー振動に対応しているという噂のあるゲームソフトでもPC版ではインパルストリガーが動作しないということはザラで、私は今までに [Microsoftストア版のForza Horizon 4 Demo](https://www.xbox.com/ja-JP/games/store/forza-horizon-4/9p8cp1l72jxs) でしかトリガー振動が動作しているのを見たことがありません。APIバージョンの都合でUWPアプリでしか利用できないなんて噂も耳にしていました（しかし実際のところ噂は誤りだったようで、とりあえず通常の振動と同時に作動させることのできるユーティリティアプリは幾つか存在していたようです）
@@ -72,7 +76,7 @@ CSP v0.2.0の新機能を利用しているため、v0.1.79以前のCSPでは動
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Foooooooooooooooooooooooooooooo!!!!!<br><br>CSP開発者は天才！！<br>CSP開発者は天使！！<br>CSP開発者を崇めよ！！ <a href="https://t.co/0n0tqtIp9M">pic.twitter.com/0n0tqtIp9M</a>
 
-![Twitter](https://pbs.twimg.com/media/F-4NTcPbMAAsDdc?format=png&name=small)
+[![Twitter](https://pbs.twimg.com/media/F-4NTcPbMAAsDdc?format=png&name=small)](https://twitter.com/Akeyroid7/status/1724330571026080217)
 
 </p>&mdash; キノ🍀（あっきー@きゃらくたぁ製作所） (@Akeyroid7) <a href="https://twitter.com/Akeyroid7/status/1724330571026080217?ref_src=twsrc%5Etfw">November 14, 2023</a></blockquote>
 
@@ -82,12 +86,12 @@ CSP v0.2.0の新機能を利用しているため、v0.1.79以前のCSPでは動
 
 同じ年、同じ季節に現れた「インパルストリガー」と「Steam版アセットコルサ」は、なんと10年の時を経て、CSPというMODのアップデートにより**奇跡の出会い**を果たしたわけです。なんだかロマンチックですね。涙が止まりません。
 
+</div></details>
+
 [^1]:日本国内向けに発売されたのは2014年9月4日だそうです。[Wikipedia](https://wikipedia.org/wiki/Xbox_One)
 [^2]:[Wikipedia (英語版)](https://wikipedia.org/wiki/Assetto_Corsa)
 [^3]:私にとって初めての革命は [Gamepad FX](https://www.racedepartment.com/downloads/a7-assist-gamepad-fx.53941/) でした。アセコルプレイヤーの皆さんはご存知だと思いますが、CSPは他にも数々の革命を起こしています。
 [^4]:現在、CSPはDualSenseやDUALSHOCK 4などのPlayStation用コントローラーや、Nintendo Switch Proコントローラーなどの独自機能（本体LEDやタッチパッドおよびジャイロセンサー）にアクセスできるLuaスクリプト機能を提供しています。
-
-</div></details>
 
 ## サポート
 
